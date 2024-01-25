@@ -299,7 +299,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -359,7 +359,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 8
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -462,12 +462,12 @@ Tilemap:
     m_Data: {fileID: 278931712, guid: 966fcc7687dab7d41a2eeccdc0558abd, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -1984143323, guid: 966fcc7687dab7d41a2eeccdc0558abd, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 2066895536, guid: 966fcc7687dab7d41a2eeccdc0558abd, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 683783775, guid: 966fcc7687dab7d41a2eeccdc0558abd, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1844350649, guid: 966fcc7687dab7d41a2eeccdc0558abd, type: 3}
   - m_RefCount: 1
@@ -586,15 +586,28 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.54406166, y: 2.1058683}
+    - - {x: 1.3860061, y: 2.0335233}
+      - {x: 0.54406166, y: 2.1058683}
       - {x: -1.7466626, y: 2.0869222}
       - {x: -4.033911, y: 2.1304698}
       - {x: -4.7245317, y: 1.8882425}
       - {x: -5.0398245, y: 1.3132514}
-      - {x: -4.9633822, y: -2.0658207}
-      - {x: -2.0473921, y: -2.0504296}
-      - {x: 3.1002636, y: -2.0936136}
-      - {x: 3.1403856, y: 2.0627136}
+      - {x: -5.03412, y: -0.4114195}
+      - {x: -4.5327373, y: -1.0199685}
+      - {x: -3.4322972, y: -1.06914}
+      - {x: -2.478037, y: -1.0660981}
+      - {x: -1.8350413, y: -1.0652299}
+      - {x: -0.7384487, y: -1.0121707}
+      - {x: 1.4308891, y: -1.0353429}
+      - {x: 2.608098, y: -1.0477614}
+      - {x: 2.8571723, y: -1.0518698}
+      - {x: 3.1067553, y: -0.5002742}
+      - {x: 2.9692135, y: 0.011418879}
+      - {x: 2.5201886, y: 0.11259413}
+      - {x: 1.9837829, y: 0.17969245}
+      - {x: 2.0083747, y: 0.33371496}
+      - {x: 2.0627067, y: 0.9963857}
+      - {x: 1.8176898, y: 1.8473911}
   m_UseDelaunayMesh: 0
 --- !u!1 &911142740
 GameObject:
@@ -2246,8 +2259,24 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -12, y: 2.5}
-  - {x: 19, y: 2.5}
+  - {x: -9.037743, y: -0.17742515}
+  - {x: -9.143999, y: 1.8004904}
+  - {x: -8.873105, y: 3.445878}
+  - {x: -7.273649, y: 3.9886928}
+  - {x: -0.1215229, y: 4.043751}
+  - {x: 4.7432704, y: 4.0380173}
+  - {x: 5.8768005, y: 3.3373547}
+  - {x: 6.1986046, y: 1.9654171}
+  - {x: 6.118093, y: 0.33181882}
+  - {x: 7.2218113, y: -0.13499558}
+  - {x: 7.8831835, y: -0.9921642}
+  - {x: 8.099815, y: -1.8424426}
+  - {x: 7.742506, y: -3.321859}
+  - {x: 5.3710966, y: -4.1105337}
+  - {x: 3.3466916, y: -4.086795}
+  - {x: -7.879728, y: -3.8355694}
+  - {x: -8.848876, y: -3.050743}
+  - {x: -9.084473, y: 0.1643734}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -2409,37 +2438,6 @@ Transform:
   - {fileID: 1701646023}
   - {fileID: 945914412}
   - {fileID: 222545601}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1673660155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1673660156}
-  m_Layer: 0
-  m_Name: Grid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1673660156
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673660155}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1701646022
@@ -6137,6 +6135,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 911142743}
-  - {fileID: 1673660156}
   - {fileID: 1570561326}
   - {fileID: 1505792557}
